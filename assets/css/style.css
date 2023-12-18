@@ -260,3 +260,33 @@ hr {
 
     }
 }
+
+@media screen and(min-width:1200px) {
+    /*reason section*/
+   
+    #benifits
+    {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    #benifits>div{
+        flex:1;
+    }
+    #benifits-image{
+        order:0;
+
+    }
+    #benifits-mental{
+        order:1;
+
+    }
+    #benifits-mental>div{
+        align-self:flex-start;
+
+    }
+    #benifits-physical{
+        align-self:flex-end;
+
+    }
+}
