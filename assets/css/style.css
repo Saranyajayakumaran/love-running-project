@@ -140,6 +140,24 @@ main {
     line-height: 20px;
 }
 
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 5px 0;
+    /*make square iage to circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#benifits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #benifits p {
 
     padding: 0 20px;
