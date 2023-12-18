@@ -1,5 +1,5 @@
 /*Google font import*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /*Asterik wildcard selector to override default styles added by the browser*/
 * {
@@ -232,6 +232,23 @@ hr {
 
     }
 
+    #benifits-physical,
+    #benifits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benifits-physical>div,
+    #benifits-mental>div {
+        width: 75%;
+
+    }
+
+    #benifits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /*Larger devices(laptops and desktops,992px and up)*/
