@@ -28,6 +28,9 @@ h3 {
     color: #252525;
 
 }
+.hidden-heading{
+    display:none;
+}
 
 /*Header*/
 header {
@@ -172,9 +175,7 @@ hr {
     margin: 5px 0;
 }
 /*Meet up time secction*/
-#hide{
-    display:none;
-}
+
 #times{
     background:url("../images/dublin-city.webp") no-repeat center/cover;
      /* Handles responsivity without the need for a media query */
@@ -273,12 +274,11 @@ hr {
 }
 
 /*Media query:large or Landscape phones(576px and up)*/
-@media screen and (min-widh:576px){
-    #photos{
-        column-count:2;
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
         column-gap: 0;
-    }
-
+  }
 }
 /* Media query:tablets and larger(768px and up*/
 @media screen and (min-width:768px) {
